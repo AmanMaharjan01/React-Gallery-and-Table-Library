@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.Nav {
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0px 1px 8px 2px #b0b0b0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav .menu {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav ul li {
+  color: #000 !important;
+  font-size: 15px;
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Nav ul li:hover {
+  transform: scale(1.1);
+}
+
+.react-photo-gallery--gallery img {
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.react-photo-gallery--gallery img:hover {
+  opacity: 0.6;
+}
+
+.alice-carousel__stage img {
+  position: relative;
+  left: 17%;
+}
+
+.gallery-intro {
+  box-shadow: 2px 5px 12px 2px #a6a6a6;
+  display: inline-block;
+  width: 55%;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery-intro img {
+  width: 80%;
+}
+
+.gallery-intro button {
+  border-radius: 25px;
+  background-color: #00d8ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  height: 40px;
+}
+
+.gallery-intro button:hover {
+  border: 2px solid #00d8ff;
+  background-color: #fff;
+  color: #00d8ff;
+}
+
+#gallery {
+}
+
+.option {
+  width: 65%;
+  height: 65vh;
+  margin: 120px auto;
+  display: flex;
+}
+
+.option #gallery,
+#table {
+  flex: 1;
+  box-shadow: 2px 5px 12px 2px #a6a6a6;
+  margin: 20px;
+  transition: 0.3s;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.option div img {
+  width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.option div:hover {
+  transform: scale(1.1);
+}
+
+.table {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#return {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 90px;
+  height: 30px;
+  border: none;
+  background-color: unset;
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+@media all and (max-width: 1300px) {
+  .option {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 520px) {
+  .gallery-intro {
+    width: 65%;
+  }
+
+  .gallery-intro :double-button {
+    width: 90px;
+    height: 30px;
   }
 }
