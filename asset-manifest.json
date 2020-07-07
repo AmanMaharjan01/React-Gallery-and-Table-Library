@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Gallery-and-Table-Library/static/css/main.140d9af6.chunk.css",
+    "main.js": "/React-Gallery-and-Table-Library/static/js/main.d5e183db.chunk.js",
+    "main.js.map": "/React-Gallery-and-Table-Library/static/js/main.d5e183db.chunk.js.map",
+    "runtime-main.js": "/React-Gallery-and-Table-Library/static/js/runtime-main.284df04d.js",
+    "runtime-main.js.map": "/React-Gallery-and-Table-Library/static/js/runtime-main.284df04d.js.map",
+    "static/css/2.63d86ec7.chunk.css": "/React-Gallery-and-Table-Library/static/css/2.63d86ec7.chunk.css",
+    "static/js/2.686d9f34.chunk.js": "/React-Gallery-and-Table-Library/static/js/2.686d9f34.chunk.js",
+    "static/js/2.686d9f34.chunk.js.map": "/React-Gallery-and-Table-Library/static/js/2.686d9f34.chunk.js.map",
+    "index.html": "/React-Gallery-and-Table-Library/index.html",
+    "precache-manifest.f3b727b5232ce916c09dcca9a736245e.js": "/React-Gallery-and-Table-Library/precache-manifest.f3b727b5232ce916c09dcca9a736245e.js",
+    "service-worker.js": "/React-Gallery-and-Table-Library/service-worker.js",
+    "static/css/2.63d86ec7.chunk.css.map": "/React-Gallery-and-Table-Library/static/css/2.63d86ec7.chunk.css.map",
+    "static/css/main.140d9af6.chunk.css.map": "/React-Gallery-and-Table-Library/static/css/main.140d9af6.chunk.css.map",
+    "static/js/2.686d9f34.chunk.js.LICENSE.txt": "/React-Gallery-and-Table-Library/static/js/2.686d9f34.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.284df04d.js",
+    "static/css/2.63d86ec7.chunk.css",
+    "static/js/2.686d9f34.chunk.js",
+    "static/css/main.140d9af6.chunk.css",
+    "static/js/main.d5e183db.chunk.js"
+  ]
+}
